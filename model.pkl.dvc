@@ -4,9 +4,9 @@ deps:
   path: data/splitter/train.csv
 - md5: c38869db7776de4a4298934196ce2991
   path: data/splitter/validation.csv
-- md5: 7186e47534570e956e1c72a0154fa5e5
+- md5: ff0fec1b778fd51e7756d2cd02c034db
   path: src/decision_tree.py
-md5: 999c895ec54438c45952f2f54e58ada2
+md5: e644441130d547194c17d13e8e73b585
 outs:
 - cache: true
   md5: 1594dc237f58879bdeba2040cd8ddc7e

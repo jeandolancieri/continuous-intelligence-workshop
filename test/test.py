@@ -8,7 +8,7 @@ class TestAccuracy(unittest.TestCase):
         with open(self.METRICS_FILE, 'r') as file:
             metrics = json.load(file)
             self.assertGreater(metrics['nwrmsle'], 0.80)
-            self.assertGreater(metrics['r2_score'], 0.0)
+            self.assertLessEqual(metrics['r2_score'], 0.0)
 
 
 if __name__ == "__main__":
